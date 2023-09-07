@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(51, 51, 51);
+    color: #fff;
+}
+
+.input-senha{
+    padding-top:10px;
+}
+
+.form-login{
+    width: 200px;
+    height: 400px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top:15%;
+}

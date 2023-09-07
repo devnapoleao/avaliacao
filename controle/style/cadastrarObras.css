@@ -1,0 +1,17 @@
+.form-cadastro-obras{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form-cadastro-obras div .btn-salvar-Obra{
+    width: 100%;
+    margin-top: 10px;
+}
+
+#conteudo-tabela-obras{
+    background-color: white;
+}
+
+.excluir-registro-obra{
+    margin-left: 5px;
+}

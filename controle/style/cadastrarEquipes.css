@@ -1,0 +1,17 @@
+.form-cadastro-equipes{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form-cadastro-equipes div .btn-salvar-equipe{
+    width: 100%;
+    margin-top: 10px;
+}
+
+#conteudo-tabela-equipes{
+    background-color: white;
+}
+
+.excluir-registro-equipe{
+    margin-left: 5px;
+}

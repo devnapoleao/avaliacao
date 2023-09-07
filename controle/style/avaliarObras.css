@@ -1,0 +1,123 @@
+#main-conteudo{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.pergunta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.input-comentario {
+    unicode-bidi: bidi-override; /* Mantém a direção correta dos caracteres */
+    font-size: 1rem;             /* Tamanho das estrelas */
+}
+
+
+/* ESTRELAS NOTA1 */
+.estrelas-n1 {
+    direction: rtl;              /* Inverte a direção das estrelas para serem exibidas da direita para a esquerda */
+    unicode-bidi: bidi-override; /* Mantém a direção correta dos caracteres */
+    font-size: 3rem;             /* Tamanho das estrelas */
+    margin-bottom: 20px;         /* Espaçamento inferior */
+    position: relative;
+}
+
+.estrelas-n1 div .estrela-n1-click {
+    display: none; /* Esconde os inputs de rádio */
+}
+
+.estrelas-n1 label {
+    display: inline-block;
+    cursor: pointer;
+    color: #ccc; /* Cor das estrelas vazias */
+}
+
+.estrelas-n1 div label:hover,
+.estrelas-n1 div .estrela-n1-click:checked ~ label {
+    color: #ffcc00; /* Cor das estrelas preenchidas ao passar o mouse ou quando selecionadas */
+}
+
+
+/* ESTRELAS NOTA2 */
+.estrelas-n2 {
+    direction: rtl;              /* Inverte a direção das estrelas para serem exibidas da direita para a esquerda */
+    unicode-bidi: bidi-override; /* Mantém a direção correta dos caracteres */
+    font-size: 3rem;             /* Tamanho das estrelas */
+    margin-bottom: 20px;         /* Espaçamento inferior */
+    position: relative;
+}
+
+.estrelas-n2 div .estrela-n2-click {
+    display: none; /* Esconde os inputs de rádio */
+}
+
+.estrelas-n2 label {
+    display: inline-block;
+    cursor: pointer;
+    color: #ccc; /* Cor das estrelas vazias */
+}
+
+.estrelas-n2 label:hover,
+.estrelas-n2 div .estrela-n2-click:checked ~ label {
+    color: #ffcc00; /* Cor das estrelas preenchidas ao passar o mouse ou quando selecionadas */
+}
+
+
+
+/* ESTRELAS NOTA3 */
+.estrelas-n3 {
+    direction: rtl;              /* Inverte a direção das estrelas para serem exibidas da direita para a esquerda */
+    unicode-bidi: bidi-override; /* Mantém a direção correta dos caracteres */
+    font-size: 3rem;             /* Tamanho das estrelas */
+    margin-bottom: 20px;         /* Espaçamento inferior */
+    position: relative;
+}
+
+.estrelas-n3 div .estrela-n3-click {
+    display: none; /* Esconde os inputs de rádio */
+}
+
+.estrelas-n3 label {
+    display: inline-block;
+    cursor: pointer;
+    color: #ccc; /* Cor das estrelas vazias */
+}
+
+.estrelas-n3 label:hover,
+.estrelas-n3 div .estrela-n3-click:checked ~ label {
+    color: #ffcc00; /* Cor das estrelas preenchidas ao passar o mouse ou quando selecionadas */
+}
+
+
+
+
+.form-fazer-avaliacao{
+    display: none;
+}
+
+.botao-avaliacao{
+    width: 55%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.btn-salvar-avaliacao{
+    width: 200px;
+    font-size: 1.2rem !important;
+}
+
+
+.filtro-avaliacoes{
+    display: flex;
+    height: 60px;
+}
+
+.filtro-avaliacoes .div-btn-buscar{
+    margin-top: 23px;
+    margin-left: 3px;
+}
